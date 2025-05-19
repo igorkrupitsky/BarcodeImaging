@@ -8,7 +8,7 @@ This Windows application lets you scan image in a given folder and generate CSV 
 ![](img/barcodescanner2.gif)
 
 ## Introduction
-This Windows application lets you scan image in a given folder (and subfolders) and generate CSV file based on the output. This article uses the BarcodeImaging.dll library developed by Berend Engelbrecht to scan barcodes: Reading Barcodes from an Image - III.
+This Windows application lets you scan image in a given folder (and subfolders) and generate CSV file based on the output. This article uses the BarcodeImaging.dll library developed by Berend Engelbrecht to scan barcodes: [Reading Barcodes from an Image - III](https://www.codeproject.com/Articles/42852/Reading-Barcodes-from-an-Image-III).
 
 ## Background
 I found that BarcodeImaging.dll library does a pretty decent job, but for some cases I needed to use Byte Scout (Bytescout.BarCodeReader.dll) library (which costs $20 and is slow). I tried Byte Scout library for comparison but left it unchecked in the application, in case someone will still want to try it.
